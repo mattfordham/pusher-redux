@@ -16,8 +16,8 @@ module.exports.setPusherClient = function (PusherClient) {
   config.PusherClient = PusherClient;
 };
 
-module.exports.getPusherClient = function () {
-  return config.PusherClient;
+module.exports.getSocket = function () {
+  return config.socket;
 };
 
 // create redux action
