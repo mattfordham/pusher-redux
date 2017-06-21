@@ -16,6 +16,10 @@ module.exports.setPusherClient = function (PusherClient) {
   config.PusherClient = PusherClient;
 };
 
+module.exports.getPusherClient = function () {
+  return config.PusherClient;
+};
+
 // create redux action
 var pusherAction = function pusherAction(_ref) {
   var actionType = _ref.actionType;
